@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Marketing Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px 10%;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 10%;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .services, .portfolio {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 calc(33.333% - 20px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yohan Pathum -
+        Ecommerce marketing expert</h1>
+        <p>Your Partner in E-commerce Marketing Success</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Ecom club! We specialize in helping e-commerce businesses grow through tailored marketing strategies. From increasing traffic to maximizing conversions, we have the expertise to take your online store to the next level.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <h3>Performance Marketing</h3>
+                <p>Drive measurable results with PPC, social media ads, and more.</p>
+            </div>
+            <div class="card">
+                <h3>SEO Optimization</h3>
+                <p>Increase your organic traffic and visibility on search engines.</p>
+            </div>
+            <div class="card">
+                <h3>Content Creation</h3>
+                <p>Engage customers with high-quality, targeted content.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio">
+            <div class="card">
+                <img src="example1.jpg" alt="Portfolio Item">
+                <h3>Client A</h3>
+                <p>Boosted sales by 50% through targeted ad campaigns.</p>
+            </div>
+            <div class="card">
+                <img src="example2.jpg" alt="Portfolio Item">
+                <h3>Client B</h3>
+                <p>Increased organic traffic by 70% within 3 months.</p>
+            </div>
+            <div class="card">
+                <img src="example3.jpg" alt="Portfolio Item">
+                <h3>Client C</h3>
+                <p>Developed a comprehensive content strategy for success.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or ready to get started? Reach out to us!</p>
+        <p>Email: <a href="mailto:Ecom@support.com">Ecom@support.com</a></p>
+        <p>Phone: +94 758 816 915</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ecom experts club. All Rights Reserved. | <a href="#contact">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
